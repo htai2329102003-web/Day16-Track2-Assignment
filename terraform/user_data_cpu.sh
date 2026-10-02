@@ -12,4 +12,10 @@ pip3 install lightgbm scikit-learn pandas numpy kaggle
 mkdir -p /home/ubuntu/ml-benchmark
 chown ubuntu:ubuntu /home/ubuntu/ml-benchmark
 
-echo "CPU environment ready: lightgbm, scikit-learn, pandas, numpy, kaggle installed system-wide."
+cat > /home/ubuntu/ml-benchmark/benchmark.py <<'BENCHMARK_PY'
+${benchmark_script}
+BENCHMARK_PY
+chown ubuntu:ubuntu /home/ubuntu/ml-benchmark/benchmark.py
+chmod 755 /home/ubuntu/ml-benchmark/benchmark.py
+
+echo "CPU environment ready: LightGBM packages installed; benchmark.py is in /home/ubuntu/ml-benchmark."

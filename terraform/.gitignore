@@ -1,0 +1,13 @@
+# Terraform working files and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# SSH key pair created for this lab
+lab-key
+lab-key.pub
+
+# Local benchmark output
+benchmark_result.json
