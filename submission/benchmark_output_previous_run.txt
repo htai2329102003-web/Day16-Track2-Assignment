@@ -1,0 +1,14 @@
+LightGBM Credit Card Fraud Benchmark
+Dataset: /home/ubuntu/ml-benchmark/creditcard.csv (284,807 rows)
+Split: 60/20/20 (train=170,883, validation=56,962, test=56,962)
+Data load: 2.324 s
+Training: 2.650 s
+Best iteration: 18
+AUC-ROC: 0.933715
+Accuracy: 0.986956
+F1-Score: 0.195016
+Precision: 0.109091
+Recall: 0.918367
+Inference latency (1 row, mean): 1.2486 ms
+Inference throughput (1000 rows): 545966.04 rows/s
+Results saved to: /home/ubuntu/ml-benchmark/benchmark_result.json
