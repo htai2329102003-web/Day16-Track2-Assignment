@@ -4,6 +4,7 @@
 *.tfstate.*
 *.tfplan
 crash.log
+ssh_config
 
 # SSH key pair created for this lab
 lab-key
